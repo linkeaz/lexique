@@ -16,6 +16,22 @@
     ]
   },
   {
+    "id": "crypto-agility",
+    "term": "Crypto-agilité",
+    "category": "dev",
+    "shortDefinition": "Capacité d'un système à changer d'algorithmes cryptographiques sans refonte majeure.",
+    "fullDefinition": "La crypto-agilité repose sur des abstractions, paramètres configurables et stratégies de migration maîtrisées. Elle limite l'effet tunnel lors des transitions, notamment vers la cryptographie post-quantique.",
+    "aliases": [
+      "agilité cryptographique",
+      "cryptographic agility"
+    ],
+    "related": [
+      "pqc",
+      "tls",
+      "ci-cd"
+    ]
+  },
+  {
     "id": "jwt",
     "term": "JWT",
     "category": "dev",
