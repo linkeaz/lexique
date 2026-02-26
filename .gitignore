@@ -1,0 +1,25 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Env / local
+.env
+.env.*
+!.env.example
+*.local
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive assistant instructions (local only)
+AGENTS.md
+CLAUDE.md
+
+# Build / cache
+node_modules/
+dist/
+build/
+.cache/

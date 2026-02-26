@@ -1,0 +1,157 @@
+[
+  {
+    "id": "dmarc",
+    "term": "DMARC",
+    "category": "infra",
+    "shortDefinition": "Politique email anti-usurpation basée sur SPF et DKIM.",
+    "fullDefinition": "DMARC définit comment traiter les emails non alignés (none, quarantine, reject) et fournit des rapports pour piloter la protection du domaine.",
+    "aliases": [
+      "Domain-based Message Authentication, Reporting and Conformance"
+    ],
+    "related": [
+      "phishing"
+    ]
+  },
+  {
+    "id": "edr",
+    "term": "EDR",
+    "category": "infra",
+    "shortDefinition": "Détection et réponse sur endpoints.",
+    "fullDefinition": "Un EDR collecte la télémétrie poste/serveur, détecte des comportements suspects et assiste l'investigation et la remédiation en temps réel.",
+    "aliases": [
+      "Endpoint Detection and Response"
+    ],
+    "related": [
+      "xdr",
+      "soc"
+    ]
+  },
+  {
+    "id": "iam",
+    "term": "IAM",
+    "category": "infra",
+    "shortDefinition": "Gestion des identités et des droits d'accès.",
+    "fullDefinition": "IAM structure comptes, rôles, policies et fédération pour appliquer moindre privilège, traçabilité et contrôle fin des permissions.",
+    "aliases": [
+      "Identity and Access Management"
+    ],
+    "related": [
+      "zero-trust",
+      "mfa"
+    ]
+  },
+  {
+    "id": "mfa",
+    "term": "MFA",
+    "category": "infra",
+    "shortDefinition": "Authentification avec plusieurs facteurs indépendants.",
+    "fullDefinition": "La MFA combine au moins deux preuves (mot de passe, appareil, biométrie, clé physique) pour réduire le risque de compromission de compte.",
+    "aliases": [
+      "authentification multifacteur"
+    ],
+    "related": [
+      "iam",
+      "phishing"
+    ]
+  },
+  {
+    "id": "sandboxing",
+    "term": "Sandboxing",
+    "category": "infra",
+    "shortDefinition": "Isolation contrôlée pour limiter l’impact d’un code non fiable.",
+    "fullDefinition": "Une sandbox limite permissions, système de fichiers, réseau et appels système pour contenir un comportement malveillant.",
+    "aliases": [
+      "bac à sable",
+      "sandbox"
+    ],
+    "related": [
+      "ai-agent",
+      "zero-trust"
+    ]
+  },
+  {
+    "id": "siem",
+    "term": "SIEM",
+    "category": "infra",
+    "shortDefinition": "Plateforme centralisant logs, corrélations et alertes sécurité.",
+    "fullDefinition": "Le SIEM agrège les événements de multiples sources et applique des règles pour détecter des comportements anormaux.",
+    "aliases": [
+      "Security Information and Event Management"
+    ],
+    "related": [
+      "soc",
+      "ioc",
+      "ttp"
+    ]
+  },
+  {
+    "id": "soc",
+    "term": "SOC",
+    "category": "infra",
+    "shortDefinition": "Équipe opérationnelle de surveillance et réponse incidents.",
+    "fullDefinition": "Le Security Operations Center supervise la détection, qualification, investigation et remédiation des incidents de sécurité.",
+    "aliases": [
+      "Security Operations Center"
+    ],
+    "related": [
+      "siem",
+      "ioc",
+      "ttp"
+    ]
+  },
+  {
+    "id": "tls",
+    "term": "TLS",
+    "category": "infra",
+    "shortDefinition": "Protocole de chiffrement des communications réseau.",
+    "fullDefinition": "Transport Layer Security protège la confidentialité et l'intégrité des flux (HTTPS, API, mail) via chiffrement, certificats et négociation cryptographique.",
+    "aliases": [
+      "Transport Layer Security"
+    ],
+    "related": [
+      "zero-trust"
+    ]
+  },
+  {
+    "id": "waf",
+    "term": "WAF",
+    "category": "infra",
+    "shortDefinition": "Pare-feu applicatif web filtrant le trafic HTTP(S).",
+    "fullDefinition": "Un WAF bloque ou limite des patterns d’attaque applicative (SQLi, XSS, bots), avec règles gérées ou personnalisées.",
+    "aliases": [
+      "Web Application Firewall"
+    ],
+    "related": [
+      "zero-trust",
+      "siem"
+    ]
+  },
+  {
+    "id": "xdr",
+    "term": "XDR",
+    "category": "infra",
+    "shortDefinition": "Détection et réponse étendues sur plusieurs couches.",
+    "fullDefinition": "Le XDR corrèle endpoints, réseau, email, cloud et identité pour accélérer la détection multi-source et la réponse coordonnée.",
+    "aliases": [
+      "Extended Detection and Response"
+    ],
+    "related": [
+      "edr",
+      "siem"
+    ]
+  },
+  {
+    "id": "zero-trust",
+    "term": "Zero Trust",
+    "category": "infra",
+    "shortDefinition": "Principe: ne jamais faire confiance par défaut, toujours vérifier.",
+    "fullDefinition": "Le modèle Zero Trust applique vérification continue, moindre privilège et segmentation forte, même dans le réseau interne.",
+    "aliases": [
+      "zéro confiance"
+    ],
+    "related": [
+      "sandboxing",
+      "soc"
+    ]
+  }
+]

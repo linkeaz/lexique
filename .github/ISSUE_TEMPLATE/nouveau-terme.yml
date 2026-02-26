@@ -1,0 +1,34 @@
+name: Nouveau terme
+about: Proposer un nouveau terme pour le lexique
+labels: ["type:terme"]
+body:
+  - type: input
+    id: terme
+    attributes:
+      label: Terme
+      placeholder: Exemple - CVSS
+    validations:
+      required: true
+  - type: dropdown
+    id: categorie
+    attributes:
+      label: Catégorie
+      options:
+        - cyber
+        - ai
+        - infra
+        - dev
+    validations:
+      required: true
+  - type: textarea
+    id: courte
+    attributes:
+      label: Définition courte
+    validations:
+      required: true
+  - type: textarea
+    id: longue
+    attributes:
+      label: Définition détaillée
+    validations:
+      required: true

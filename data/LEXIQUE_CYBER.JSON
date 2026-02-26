@@ -1,0 +1,246 @@
+[
+  {
+    "id": "backdoor",
+    "term": "Backdoor",
+    "category": "cyber",
+    "shortDefinition": "Mécanisme caché permettant un accès non autorisé.",
+    "fullDefinition": "Une backdoor peut être introduite dans du code, une dépendance ou un système pour maintenir un accès persistant en contournant les contrôles normaux.",
+    "aliases": [],
+    "related": [
+      "supply-chain-attack",
+      "exfiltration"
+    ]
+  },
+  {
+    "id": "c2",
+    "term": "C2",
+    "category": "cyber",
+    "shortDefinition": "Canal de Command and Control utilisé pour piloter un malware.",
+    "fullDefinition": "Après compromission, un agent malveillant communique souvent avec un serveur C2 pour recevoir des ordres, exfiltrer des données ou pivoter.",
+    "aliases": [
+      "Command and Control",
+      "C&C"
+    ],
+    "related": [
+      "ioc",
+      "ttp"
+    ]
+  },
+  {
+    "id": "cve",
+    "term": "CVE",
+    "category": "cyber",
+    "shortDefinition": "Identifiant standard public pour référencer une vulnérabilité connue.",
+    "fullDefinition": "Le format CVE (Common Vulnerabilities and Exposures) permet de parler d’une faille avec une référence unique, utile pour le suivi et la remédiation.",
+    "aliases": [
+      "Common Vulnerabilities and Exposures"
+    ],
+    "related": [
+      "zero-day",
+      "exploit"
+    ]
+  },
+  {
+    "id": "cvss",
+    "term": "CVSS",
+    "category": "cyber",
+    "shortDefinition": "Score standard pour évaluer la sévérité d'une vulnérabilité.",
+    "fullDefinition": "Le Common Vulnerability Scoring System attribue une note (souvent sur 10) selon impact, exploitabilité et contexte, pour aider la priorisation.",
+    "aliases": [
+      "Common Vulnerability Scoring System"
+    ],
+    "related": [
+      "cve",
+      "cwe"
+    ]
+  },
+  {
+    "id": "cwe",
+    "term": "CWE",
+    "category": "cyber",
+    "shortDefinition": "Classification des faiblesses logicielles communes.",
+    "fullDefinition": "Common Weakness Enumeration décrit les types de failles de conception ou de développement et facilite la priorisation des corrections en amont.",
+    "aliases": [
+      "Common Weakness Enumeration"
+    ],
+    "related": [
+      "cve",
+      "cvss"
+    ]
+  },
+  {
+    "id": "dlp",
+    "term": "DLP",
+    "category": "cyber",
+    "shortDefinition": "Contrôles empêchant la fuite de données sensibles.",
+    "fullDefinition": "La Data Loss Prevention classe les données, applique des politiques (mail, endpoints, cloud) et bloque les exfiltrations non autorisées.",
+    "aliases": [
+      "Data Loss Prevention"
+    ],
+    "related": [
+      "soc",
+      "zero-trust"
+    ]
+  },
+  {
+    "id": "exfiltration",
+    "term": "Exfiltration",
+    "category": "cyber",
+    "shortDefinition": "Extraction non autorisée de données hors d'un système.",
+    "fullDefinition": "L'exfiltration suit souvent une compromission initiale: l'attaquant collecte puis transfère des données sensibles via un canal discret (C2, cloud, DNS, etc.).",
+    "aliases": [],
+    "related": [
+      "c2",
+      "dlp"
+    ]
+  },
+  {
+    "id": "exploit",
+    "term": "Exploit",
+    "category": "cyber",
+    "shortDefinition": "Code ou technique qui tire parti d’une vulnérabilité.",
+    "fullDefinition": "Un exploit transforme une faille théorique en impact concret: exécution de code, fuite de données, élévation de privilèges ou contournement de contrôles.",
+    "aliases": [],
+    "related": [
+      "rce",
+      "zero-day"
+    ]
+  },
+  {
+    "id": "ioc",
+    "term": "IOC",
+    "category": "cyber",
+    "shortDefinition": "Indicateur technique signalant une possible compromission.",
+    "fullDefinition": "Les IOC incluent par exemple des hash, domaines, IP, URLs, patterns réseau ou artefacts système corrélés à des activités malveillantes.",
+    "aliases": [
+      "Indicator of Compromise",
+      "Indicateur de compromission"
+    ],
+    "related": [
+      "siem",
+      "soc"
+    ]
+  },
+  {
+    "id": "mitre-atlas",
+    "term": "MITRE ATLAS",
+    "category": "cyber",
+    "shortDefinition": "Base de connaissances MITRE sur les techniques d'attaque ciblées IA.",
+    "fullDefinition": "ATLAS documente tactiques, scénarios et mitigations pour les systèmes IA, dans une logique similaire à ATT&CK mais adaptée au contexte machine learning et agents.",
+    "aliases": [],
+    "related": [
+      "ttp",
+      "prompt-injection"
+    ]
+  },
+  {
+    "id": "owasp",
+    "term": "OWASP",
+    "category": "cyber",
+    "shortDefinition": "Fondation qui publie des standards et guides de sécurité applicative.",
+    "fullDefinition": "L'Open Worldwide Application Security Project propose des référentiels utilisés pour auditer, prioriser et corriger les risques logiciels.",
+    "aliases": [
+      "Open Worldwide Application Security Project"
+    ],
+    "related": [
+      "cwe",
+      "cve"
+    ]
+  },
+  {
+    "id": "phishing",
+    "term": "Phishing",
+    "category": "cyber",
+    "shortDefinition": "Technique d'ingénierie sociale visant à voler des identifiants ou donner accès.",
+    "fullDefinition": "Le phishing imite une source légitime (mail, SMS, portail, voix) pour pousser la victime à cliquer, saisir ses secrets ou valider une action frauduleuse.",
+    "aliases": [],
+    "related": [
+      "mfa",
+      "dmarc"
+    ]
+  },
+  {
+    "id": "ransomware",
+    "term": "Ransomware",
+    "category": "cyber",
+    "shortDefinition": "Malware qui chiffre les données et demande une rançon.",
+    "fullDefinition": "Les campagnes modernes combinent chiffrement, vol de données et pression médiatique. La reprise dépend surtout des sauvegardes et du plan de réponse.",
+    "aliases": [
+      "rançongiciel"
+    ],
+    "related": [
+      "c2",
+      "soc"
+    ]
+  },
+  {
+    "id": "rce",
+    "term": "RCE",
+    "category": "cyber",
+    "shortDefinition": "Exécution de code arbitraire à distance sur une cible.",
+    "fullDefinition": "Une RCE est souvent critique car un attaquant peut faire exécuter des commandes sans accès local préalable.",
+    "aliases": [
+      "Remote Code Execution"
+    ],
+    "related": [
+      "exploit",
+      "cve"
+    ]
+  },
+  {
+    "id": "supply-chain-attack",
+    "term": "Supply chain attack",
+    "category": "cyber",
+    "shortDefinition": "Attaque passant par un fournisseur, une dépendance ou un composant tiers.",
+    "fullDefinition": "Au lieu de cibler directement l’entreprise finale, l’attaquant compromet la chaîne d’approvisionnement logicielle ou opérationnelle.",
+    "aliases": [
+      "attaque supply chain",
+      "attaque de la chaîne d’approvisionnement"
+    ],
+    "related": [
+      "sbom",
+      "exploit"
+    ]
+  },
+  {
+    "id": "ttp",
+    "term": "TTP",
+    "category": "cyber",
+    "shortDefinition": "Tactiques, techniques et procédures utilisées par un acteur de menace.",
+    "fullDefinition": "L’analyse TTP met l’accent sur les comportements adverses plutôt que sur un IOC isolé, utile pour une détection durable.",
+    "aliases": [
+      "Tactiques techniques procédures"
+    ],
+    "related": [
+      "ioc",
+      "soc"
+    ]
+  },
+  {
+    "id": "yara",
+    "term": "YARA",
+    "category": "cyber",
+    "shortDefinition": "Langage de règles pour identifier des malwares et artefacts suspects.",
+    "fullDefinition": "YARA permet d'écrire des signatures basées sur des motifs binaires, chaînes et conditions logiques, utiles en threat hunting et triage SOC.",
+    "aliases": [],
+    "related": [
+      "ioc",
+      "soc"
+    ]
+  },
+  {
+    "id": "zero-day",
+    "term": "Zero-day",
+    "category": "cyber",
+    "shortDefinition": "Vulnérabilité exploitée avant qu’un correctif officiel ne soit disponible.",
+    "fullDefinition": "Un zero-day crée une fenêtre de risque maximale: l’attaque est possible pendant que les défenseurs n’ont pas encore de patch stable à déployer.",
+    "aliases": [
+      "0-day",
+      "zero day"
+    ],
+    "related": [
+      "cve",
+      "exploit"
+    ]
+  }
+]

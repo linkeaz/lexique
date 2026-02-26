@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ci-cd",
+    "term": "CI/CD",
+    "category": "dev",
+    "shortDefinition": "Pipeline automatisé de build, test et déploiement.",
+    "fullDefinition": "La Continuous Integration et la Continuous Delivery/Deployment réduisent les délais de mise en production, mais imposent un durcissement fort de la supply chain logicielle.",
+    "aliases": [
+      "Continuous Integration",
+      "Continuous Delivery",
+      "Continuous Deployment"
+    ],
+    "related": [
+      "sbom",
+      "supply-chain-attack"
+    ]
+  },
+  {
+    "id": "jwt",
+    "term": "JWT",
+    "category": "dev",
+    "shortDefinition": "Jeton signé pour transporter des claims d'authentification/autorisation.",
+    "fullDefinition": "JSON Web Token permet de propager l'identité et des droits entre services. La sécurité dépend de la signature, de la rotation des clés, de l'expiration et des contrôles côté serveur.",
+    "aliases": [
+      "JSON Web Token"
+    ],
+    "related": [
+      "iam",
+      "mfa"
+    ]
+  },
+  {
+    "id": "rsc",
+    "term": "RSC",
+    "category": "dev",
+    "shortDefinition": "React Server Components: rendu et logique exécutée côté serveur.",
+    "fullDefinition": "RSC déplace une partie du rendu React côté serveur pour réduire le JavaScript client, mais introduit aussi des enjeux de sécurité autour de la sérialisation et des frontières serveur/client.",
+    "aliases": [
+      "React Server Components"
+    ],
+    "related": [
+      "rce",
+      "cve"
+    ]
+  },
+  {
+    "id": "sbom",
+    "term": "SBOM",
+    "category": "dev",
+    "shortDefinition": "Inventaire des composants logiciels d’une application.",
+    "fullDefinition": "Le SBOM (Software Bill of Materials) améliore la visibilité sur les dépendances et facilite l’évaluation d’impact lors d’une CVE.",
+    "aliases": [
+      "Software Bill of Materials"
+    ],
+    "related": [
+      "supply-chain-attack",
+      "cve"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+name: Correction
+about: Corriger une entrée existante
+labels: ["type:correction"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: ID du terme
+      placeholder: Exemple - cve
+    validations:
+      required: true
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Problème constaté
+    validations:
+      required: true
+  - type: textarea
+    id: proposition
+    attributes:
+      label: Proposition de correction
+    validations:
+      required: true

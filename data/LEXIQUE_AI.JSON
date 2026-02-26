@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ai-agent",
+    "term": "Agent IA",
+    "category": "ai",
+    "shortDefinition": "Système IA capable d’appeler des outils et d’exécuter des actions.",
+    "fullDefinition": "Un agent IA combine raisonnement, mémoire, contexte et exécution opérationnelle. Son périmètre doit être strictement borné.",
+    "aliases": [
+      "AI agent",
+      "agentic AI"
+    ],
+    "related": [
+      "mcp",
+      "prompt-injection",
+      "sandboxing"
+    ]
+  },
+  {
+    "id": "data-poisoning",
+    "term": "Data poisoning",
+    "category": "ai",
+    "shortDefinition": "Injection de données malicieuses pour biaiser un modèle.",
+    "fullDefinition": "Le poisoning peut toucher pre-training, fine-tuning ou index RAG et conduire à des réponses manipulées, portes dérobées logiques ou décisions dégradées.",
+    "aliases": [
+      "empoisonnement de données"
+    ],
+    "related": [
+      "rag",
+      "backdoor"
+    ]
+  },
+  {
+    "id": "deepfake",
+    "term": "Deepfake",
+    "category": "ai",
+    "shortDefinition": "Média synthétique généré par IA imitant une personne réelle.",
+    "fullDefinition": "Les deepfakes audio/video servent à tromper une cible (fraude, désinformation, usurpation) et augmentent fortement le risque de phishing avancé.",
+    "aliases": [],
+    "related": [
+      "phishing"
+    ]
+  },
+  {
+    "id": "jailbreak-llm",
+    "term": "Jailbreak LLM",
+    "category": "ai",
+    "shortDefinition": "Tentative de contourner les garde-fous d’un modèle.",
+    "fullDefinition": "Le jailbreak vise à obtenir des réponses interdites via reformulation, rôle fictif, obfuscation ou chaînage d’instructions.",
+    "aliases": [
+      "LLM jailbreak"
+    ],
+    "related": [
+      "prompt-injection"
+    ]
+  },
+  {
+    "id": "mcp",
+    "term": "MCP",
+    "category": "ai",
+    "shortDefinition": "Model Context Protocol: standard d’intégration outils et contexte pour LLM.",
+    "fullDefinition": "MCP normalise la façon dont un agent découvre des outils, lit du contexte et lance des actions, en réduisant le couplage propriétaire.",
+    "aliases": [
+      "Model Context Protocol"
+    ],
+    "related": [
+      "ai-agent",
+      "sandboxing"
+    ]
+  },
+  {
+    "id": "prompt-injection",
+    "term": "Prompt injection",
+    "category": "ai",
+    "shortDefinition": "Technique qui manipule un LLM via des instructions malicieuses.",
+    "fullDefinition": "Un contenu externe (page web, email, document) peut injecter des consignes qui contournent les règles attendues du modèle.",
+    "aliases": [
+      "injection de prompt"
+    ],
+    "related": [
+      "jailbreak-llm",
+      "ai-agent"
+    ]
+  },
+  {
+    "id": "rag",
+    "term": "RAG",
+    "category": "ai",
+    "shortDefinition": "Approche qui combine recherche documentaire et génération par LLM.",
+    "fullDefinition": "Retrieval-Augmented Generation injecte du contexte externe (base documentaire, wiki, logs) au moment de la réponse pour réduire les hallucinations et ancrer les sorties.",
+    "aliases": [
+      "Retrieval-Augmented Generation"
+    ],
+    "related": [
+      "mcp",
+      "data-poisoning"
+    ]
+  }
+]
