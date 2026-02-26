@@ -1,5 +1,11 @@
 # Lexique Linkeaz
 
+[![GitHub](https://img.shields.io/badge/GitHub-Linkeaz®_Repo-181717?logo=github)](https://github.com/linkeaz)
+![Langue](https://img.shields.io/badge/Langue-🇫🇷-2f3136)
+![Format](https://img.shields.io/badge/Format-JSON-1f6feb)
+![Licence](https://img.shields.io/badge/Licence-MIT-2ea44f)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-2ea44f?logo=github)](../../pulls)
+
 Lexique technique collaboratif en français, maintenu par la communauté Linkeaz.
 
 Ce dépôt contient uniquement les données et règles publiques du lexique.
