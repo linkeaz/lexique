@@ -6,7 +6,7 @@
 ![Licence](https://img.shields.io/badge/Licence-MIT-2ea44f)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-2ea44f?logo=github)](../../pulls)
 
-Lexique technique collaboratif en français, maintenu par la communauté Linkeaz.
+Lexique technique collaboratif en français, maintenu par [Slym B.](https://github.com/slymb) (Linkeaz)
 
 Ce dépôt contient uniquement les données et règles publiques du lexique.
 
@@ -15,6 +15,7 @@ Ce dépôt contient uniquement les données et règles publiques du lexique.
 - `data/LEXIQUE_AI.JSON`
 - `data/LEXIQUE_INFRA.JSON`
 - `data/LEXIQUE_DEV.JSON`
+- `LEXIQUE.md` : version markdown lisible du lexique.
 - `schema/lexique.schema.json` : format JSON à respecter.
 - `CONTRIBUTING.md` : comment contribuer.
 - `docs/GUIDE_EDITORIAL.md` : règles de rédaction.
@@ -40,8 +41,9 @@ La catégorie est ajoutée après validation des mainteneurs.
 ## Contribuer
 1. Ouvrir une issue (nouveau terme ou correction).
 2. Modifier le fichier de catégorie concerné dans `data/`.
-3. Proposer une PR claire.
-4. Respecter le schéma JSON et le guide éditorial.
+3. Mettre à jour `LEXIQUE.md` avec la même entrée.
+4. Proposer une PR claire.
+5. Respecter le schéma JSON et le guide éditorial.
 
 ## Règles qualité
 - Français clair, accents obligatoires.
@@ -50,3 +52,5 @@ La catégorie est ajoutée après validation des mainteneurs.
 
 ## Licence
 MIT - voir `LICENSE`.
+## Mainteneur
+- [Slym B.](https://github.com/slymb)
