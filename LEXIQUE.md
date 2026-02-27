@@ -1,6 +1,6 @@
-# Lexique Linkeaz (Markdown)
+# Lexique technique - Cybersécurité, IA, Infra et Dev
 
-Version lisible du lexique public.
+Version Markdown lisible du lexique public.
 
 Source de vérité: les fichiers JSON dans `data/`.
 
